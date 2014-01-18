@@ -1,4 +1,6 @@
-(function (window, _, rAF) {
+(function (window, _, af) {
+
+    var rAF = _.bind(af.request, af);
 
     // Runs through an array of tuples at the inverse of playback_speed speed, calling a callback with the value
     //  at the 'current' time during playback
@@ -70,4 +72,4 @@
         rAF(animLoop);
     };
 
-})(window, _, AnimationFrame);
+})(window, _, new AnimationFrame());
