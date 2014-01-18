@@ -1,0 +1,9 @@
+{
+  "name": "timeseries-animator",
+  "version": "0.0.1",
+  "main": "animator.js",
+  "dependencies": {
+    "animationFrame": "0.1.2",
+    "underscore": "1.5.2"
+  }
+}
